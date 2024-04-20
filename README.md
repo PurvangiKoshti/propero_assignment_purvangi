@@ -1,7 +1,9 @@
 
-## Setup
+## Requirement 
 
-# Python version : 3.12.1
+1. Python Version : 3.12.1
+
+## Setup
 
 1. Clone this repository to your local machine.
 
