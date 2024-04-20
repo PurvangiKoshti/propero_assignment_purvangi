@@ -143,6 +143,7 @@ class ScrapeBase:
         Returns:
             list: A list of dictionaries containing extracted data.
         """
+        self.logger("## Extracting Data")
         data = []
         for item in items:
             try:
@@ -157,5 +158,6 @@ class ScrapeBase:
                 continue
 
         self.driver.quit()
+        self.logger("## Completed Extracting Data")
 
         return data

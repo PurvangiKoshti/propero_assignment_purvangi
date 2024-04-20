@@ -1,6 +1,8 @@
 
 ## Setup
 
+# Python version : 3.12.1
+
 1. Clone this repository to your local machine.
 
 2. Install the necessary dependencies using the provided `requirements.txt` file:
